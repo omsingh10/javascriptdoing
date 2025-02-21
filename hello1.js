@@ -1,9 +1,10 @@
 
-const love = Symbol("key6")
+const love = Symbol("key6") //This is the way to declare a key
+console.log(love)
 
 
 
-const human = {
+const human = { //This is the way to declare an object
 
     name : "Shiv" ,
     [love] : "Shivisbest",
@@ -14,7 +15,10 @@ const human = {
 
 
 
-console.log(human.age);
+
+
+
+console.log(human.age); //This is the way to access the value of a key
 console.log(human["Email"]);
 console.log(human)
 
